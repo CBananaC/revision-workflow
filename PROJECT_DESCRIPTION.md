@@ -14,18 +14,27 @@
 
 ## Scope
 
-- Scope: To be refined with the user after onboarding.
-- Non-goals: Do not infer unrequested features, uploads, deployments, or publication.
+- Scope: Build a source-preserving revision workflow with a source-intake decision between direct use of light PDFs or presentation material and LLM Wiki processing for books or visually complex sources; support image retrieval or display when an explanation needs the original visual context; teach material part by part with active-recall questions; run a full-material review and planned next-day review; capture precise AI-generated explanations as Markdown notes for later handwritten reorganisation; record question-and-answer mistakes; record unknown words with spelling, pronunciation, English and Traditional Chinese definitions, and academic area; and later support course/lecture/mixed practice webapps with multiple question types, AI correction and explanation grounded in the LLM Wiki, test history, results, mistake records, and scheduling.
+- Non-goals: Do not treat generated OCR, summaries, notes, corrections, or extracted visuals as verified without source review. Do not publish course PDFs, copyrighted books, OCR, derived extracts, private notes, mistake records, or personal vocabulary data in the public repository. Do not infer unrequested features, uploads, deployments, or publication.
 - Source of truth: This project folder and its project-level `AGENTS.md`.
+
+## Success criteria
+
+- Original source files remain authoritative and traceable; each derived LLM Wiki result carries a clear verification status.
+- ChatGPT, Codex, OpenCode, other AI agents, and future webapps can follow the same source, note, mistake, vocabulary, and scheduling conventions.
+- A lecture session can produce reusable Markdown notes, question-and-answer mistake records, and vocabulary records without losing source context.
+- Review timing is explicit: part-by-part teaching, full-material review, and a planned next-day review, with later scheduling based on performance.
+- Practice can be selected by course, lecture, or mixed scope and can record question type, time, result, correct/wrong status, explanation, and follow-up review.
 
 ## Remote destinations
 
 - GitHub visibility: `public`
-- GitHub repository: Pending confirmation/connection.
+- GitHub repository: `CBananaC/revision-workflow`
+- GitHub status: Checked on 2026-09-03; repository was not found; creation and connection pending approval.
 - Google Drive sharing: `restricted`
-- Google Drive folder: Pending confirmation/connection.
+- Google Drive folder: No matching accessible folder found for `Revision`, `revision workflow`, or `workflow`; creation pending approval.
 
 ## Validation and next decision
 
 - Validate generated files, Git state/commits when applicable, and any live remote resource separately.
-- Next decision: Confirm project scope and the required GitHub/Drive destination before external setup.
+- Next decision: Approve creation of the public GitHub repository and restricted Google Drive folder, and confirm the initial push/upload scope.
