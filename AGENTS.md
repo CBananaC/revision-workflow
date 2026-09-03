@@ -19,7 +19,8 @@ Preserve source material and user-owned edits. Do not expand the scope without d
 ## Git and remote boundaries
 
 - Commit after every individual file write when Git is available; stage only the intended file and verify the commit hash.
-- GitHub visibility decision: `public`. Ask before creating or connecting a remote repository.
+- GitHub visibility decision: `public`.
+- GitHub repository target: `CBananaC/revision-workflow`; verify its live state before connecting or creating it.
 - Google Drive sharing decision: `restricted`. Ask before creating a folder, changing permissions, or uploading files.
 - Do not push, publish, upload, or send external messages without explicit approval.
 
