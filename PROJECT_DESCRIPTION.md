@@ -4,7 +4,7 @@
 
 - Root: `/Users/creamybanana/Downloads/Revision`
 - Type: `hybrid`
-- Status: Bootstrapped locally; remote setup pending confirmation and live verification.
+- Status: Bootstrapped locally; public GitHub repository connected and initial push verified; restricted Google Drive folder created and verified empty; no study materials uploaded.
 
 ## Purpose
 
@@ -30,11 +30,13 @@
 
 - GitHub visibility: `public`
 - GitHub repository: `CBananaC/revision-workflow`
-- GitHub status: Checked on 2026-09-03; repository was not found; creation and connection pending approval.
+- GitHub status: Created as a public repository on 2026-09-03; local `master` is connected to `origin/master`, and the three project-control files were verified on the default branch.
+- GitHub URL: https://github.com/CBananaC/revision-workflow
 - Google Drive sharing: `restricted`
-- Google Drive folder: No matching accessible folder found for `Revision`, `revision workflow`, or `workflow`; creation pending approval.
+- Google Drive folder: Created as `Revision` in the authenticated user's Drive root; the folder is empty and its metadata shows only owner-level access.
+- Google Drive URL: https://drive.google.com/drive/folders/1IrN1aquhjiBm_rMCQlPq6UFF2MtEm1m7
 
 ## Validation and next decision
 
 - Validate generated files, Git state/commits when applicable, and any live remote resource separately.
-- Next decision: Approve creation of the public GitHub repository and restricted Google Drive folder, and confirm the initial push/upload scope.
+- Next decision: Define the public-safe repository layout, private Drive folder structure, source-intake decision rules, and the first course/material to process. No private material should be uploaded or pushed until its destination and verification status are recorded.
